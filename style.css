@@ -46,6 +46,9 @@ img {
   position: relative;
   margin: flex;
 }
+section h2{
+  align-content: flex-start;
+}
 .About-me {
   font-size: 5px;
 }
@@ -59,8 +62,10 @@ img {
   border-radius: 30px;
   transition: transform 0.4s;
 }
-.container {
+
+.container-Work{
   display: flex;
+  justify-content: space-evenly;
 }
 .sub-contaiiner {
   display: block;
@@ -82,10 +87,15 @@ img {
   margin-bottom: 20px;
   padding: 20px;
   height: 100px;
-  background-color: #0072bb;
+  background-color: #e4881f;
   color: #ffffff;
 }
-.Contact-Me: :hover {
+.Contact-Me:hover {
   color: chartreuse;
   transition: 0.4s;
+}
+.Contact-Me ul{
+  display:flex;
+  width: 50%;
+  justify-content: space-evenly;
 }
