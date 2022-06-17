@@ -1,0 +1,72 @@
+.body {
+  background-color: #3b8fe4;
+}
+*/Navigation 
+.header {
+  padding: 20px;
+  font-family: arial, sans-serif;
+  background-color: #f010f0;
+  color:#ffffff
+}
+
+.header div ul {
+ list-style-type: none;
+}
+
+.header nav {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+}
+
+.hero {
+  height: 200px;
+  width:100%;
+  margin-bottom: 25px;
+  background-image: ass; (Assets\DSRT.jpg)
+}
+
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+.content {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
+.About-Me {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+.Work {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+.Contact-Me {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+.About-Me img {
+  max-height: 200px;
+}
+.Work img {
+  max-height: 200px;
+}
