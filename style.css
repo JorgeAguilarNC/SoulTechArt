@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body {
-  display:flex
+  display: flex;
   flex-wrap: wrap;
   font-family: arial;
   margin: 0%px;
@@ -11,6 +11,7 @@ body {
 header {
   display: flex;
   justify-content: space-between;
+  width: 100%;
   padding: 20px;
   font-family: arial, sans-serif;
   background-color: rgb(36, 34, 34);
@@ -40,17 +41,26 @@ nav ul li a:hover {
   transition: 0.4s;
 }
 img {
-  width: 100px;
-  height: 100px;
+  width: 300px;
+  height: 300px;
   border: #ffffff 05px solid;
-  position: relative;
-  margin: flex;
 }
-section h2{
+section h2 {
   align-content: flex-start;
 }
-.About-me {
-  font-size: 5px;
+p {
+  font-family: arial;
+  width: 50%;
+  margin: 50%px;
+  font-size: 20px;
+  text-align: right;
+  color: #ffffff;
+}
+.float-left {
+  width: 600px;
+  height: 600px;
+  border: #ffffff 05px solid;
+  position: relative;
 }
 #btn:hover {
   background-color: crimson;
@@ -62,8 +72,7 @@ section h2{
   border-radius: 30px;
   transition: transform 0.4s;
 }
-
-.container-Work{
+.container-Work {
   display: flex;
   justify-content: space-evenly;
 }
@@ -83,6 +92,7 @@ section h2{
 }
 .Contact-Me {
   display: flex;
+  flex-shrink: unset;
   justify-content: space-between;
   margin-bottom: 20px;
   padding: 20px;
@@ -94,8 +104,9 @@ section h2{
   color: chartreuse;
   transition: 0.4s;
 }
-.Contact-Me ul{
-  display:flex;
+.Contact-Me ul {
+  display: flex;
+  flex-wrap: wrap;
   width: 50%;
   justify-content: space-evenly;
 }
